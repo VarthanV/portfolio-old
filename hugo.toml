@@ -1,0 +1,57 @@
+baseURL = "http://example.org/"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
+
+title = "Vishnu Varthan"
+
+theme = "gokarna"
+
+# Automatically generate robots.txt
+enableRobotsTXT = true
+
+[menu]
+  [[menu.main]]
+    # Unique identifier for a menu item
+    identifier = "posts"
+
+    url = "/posts/"
+    
+    # You can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+
+    # You can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+
+    # Display name
+    name = "Posts"
+
+    # Weights are used to determine the ordering
+    weight = 1
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+    
+  [[menu.main]]
+    identifier = "github"
+    url = "https://github.com/VarthanV"
+    weight = 3
+    NewPage=true
+    
+    # We use feather-icons: https://feathericons.com/
+    pre = "<span data-feather='github'></span>"
+
+[params]
+    avatarURL = "/images/avatar.jpg"
+    AvatarAltText = "avatar"
+    avatarSize = "size-m"
+    ShowBackToTopButton = true # true or false for "back to top" button on posts
+    socialIcons = [
+        {name = "twitter", url = "https://twitter.com/bhai_codee"},
+        {name = "linkedin", url = "https://www.linkedin.com/in/vishnu-varthan-765345175/"},
+        {name = "instagram", url = "https://example.com"},
+        {name = "email", url = "mailto:example@example.com"}
+    ]
