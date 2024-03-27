@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://varthanv.netlify.app/"
 languageCode = "en"
 defaultContentLanguage = "en"
 enableEmoji = true
@@ -45,9 +45,9 @@ enableRobotsTXT = true
     pre = "<span data-feather='github'></span>"
 
 [params]
-    avatarURL = "/images/avatar.jpg"
-    AvatarAltText = "avatar"
-    avatarSize = "size-m"
+    #avatarURL = "/images/avatar.jpg"
+    #AvatarAltText = "avatar"
+    #avatarSize = "size-m"
     ShowBackToTopButton = true # true or false for "back to top" button on posts
     socialIcons = [
         {name = "twitter", url = "https://twitter.com/bhai_codee"},
