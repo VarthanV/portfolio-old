@@ -52,6 +52,6 @@ enableRobotsTXT = true
     socialIcons = [
         {name = "twitter", url = "https://twitter.com/bhai_codee"},
         {name = "linkedin", url = "https://www.linkedin.com/in/vishnu-varthan-765345175/"},
-        {name = "instagram", url = "https://example.com"},
-        {name = "email", url = "mailto:example@example.com"}
+        {name = "instagram", url = "https://www.instagram.com/bhai_code"},
+        {name = "email", url = "mailto:vishnulatha006@gmail.com"}
     ]
