@@ -29,23 +29,24 @@ enableRobotsTXT = true
     # Weights are used to determine the ordering
     weight = 1
 
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 2
     
+  [[menu.main]]
+    identifier="resume"
+    url="https://drive.google.com/file/d/1tFan_yBpALAd9mtHIMbbDf2qM1gBId_C/view?usp=sharing"
+    weight=2
+    name="Resume"
+    newPage=true
+  
   [[menu.main]]
     identifier = "github"
     url = "https://github.com/VarthanV"
-    weight = 3
-    NewPage=true
-    
+    weight = 3  
     # We use feather-icons: https://feathericons.com/
     pre = "<span data-feather='github'></span>"
 
+
 [params]
-    #avatarURL = "/images/avatar.jpg"
+    avatarURL = "/images/avatar.jpg"
     #AvatarAltText = "avatar"
     #avatarSize = "size-m"
     ShowBackToTopButton = true # true or false for "back to top" button on posts
@@ -53,5 +54,8 @@ enableRobotsTXT = true
         {name = "twitter", url = "https://twitter.com/bhai_codee"},
         {name = "linkedin", url = "https://www.linkedin.com/in/vishnu-varthan-765345175/"},
         {name = "instagram", url = "https://www.instagram.com/bhai_code"},
-        {name = "email", url = "mailto:vishnulatha006@gmail.com"}
+        {name = "email", url = "mailto:vishnulatha006@gmail.com"},
+        {name="code",url="/projects"}
     ]
+    description="A full stack developer"
+    NewPage=true
