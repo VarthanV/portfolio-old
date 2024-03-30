@@ -57,5 +57,5 @@ enableRobotsTXT = true
         {name = "email", url = "mailto:vishnulatha006@gmail.com"},
         {name="code",url="/projects"}
     ]
-    description="A full stack developer"
+    description="A full stack developer, Check out my <a href='/projects'> Work</a>"
     NewPage=true
